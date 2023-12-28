@@ -1,0 +1,27 @@
+.about-us-header {
+  font-size: clamp(2rem,4vw,3.75rem);
+  line-height: 1.16923;
+  margin-bottom: 50px;
+  margin-left: 160px;
+  max-width: 600px;
+  margin-top: 80px;
+}
+
+.about-us-paragraph {
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-bottom: 25px;
+  padding-right: 600px;
+}
+
+.about-us-button {
+  font-weight: bold;
+  color: #f8f8ff;
+  margin-left: 160px;
+  padding-bottom: 0.25rem;
+  text-underline-offset: 8px;
+}
+
+.about-us-button:hover {
+  color:#F07C68
+}

@@ -1,0 +1,21 @@
+.features-header {
+  font-size: clamp(2rem,4vw,3.75rem);
+  line-height: 1.16923;
+  margin-bottom: 40px;
+  margin-left: 8px;
+  max-width: 600px;
+  margin-top: 80px;
+}
+
+.features-paragraph {
+  margin-left: 75px;
+  margin-right: 160px;
+  margin-bottom: 25px;
+}
+
+.features2-paragraph {
+  margin-left: 75px;
+  margin-right: 160px;
+  margin-bottom: 25px;
+}
+

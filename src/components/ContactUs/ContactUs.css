@@ -1,0 +1,21 @@
+.contact-us {
+  background-image: url('../../img/wrapper-5.svg');
+  background-size: cover;
+  height: 100vh;
+  padding-top: 70px;
+}
+
+.contact-us-header {
+  font-size: clamp(2rem,4vw,3.75rem);
+  line-height: 1.16923;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-top: 80px;
+}
+
+.contact-us-paragraph {
+  margin-right: 160px;
+  margin-bottom: 25px;
+  padding-right: 600px;
+  line-height: 1.5;
+}
