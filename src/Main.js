@@ -1,5 +1,4 @@
 import './Main.css';
-import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
 import Sponsors from './components/Sponsors/Sponsors';
 import OurWork from './components/OurWork/OurWork';
@@ -13,7 +12,6 @@ import Footer from './components/Footer/Footer';
 function Main() {
   return (
     <>
-      <Navbar />
       <Home />
       <Sponsors />
       <OurWork />

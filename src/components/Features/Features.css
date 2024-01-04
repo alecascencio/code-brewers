@@ -1,21 +1,39 @@
 .features-header {
-  font-size: clamp(2rem,4vw,3.75rem);
-  line-height: 1.16923;
-  margin-bottom: 40px;
-  margin-left: 8px;
-  max-width: 600px;
   margin-top: 80px;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 50px;
 }
 
 .features-paragraph {
-  margin-left: 75px;
-  margin-right: 160px;
-  margin-bottom: 25px;
+  margin-bottom: 100px;
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
 }
 
-.features2-paragraph {
-  margin-left: 75px;
-  margin-right: 160px;
-  margin-bottom: 25px;
+.bullet-text {
+  vertical-align: middle;
+  color: white;
+  font-weight: 700;
 }
 
+.features-paragraph p {
+  color: #7a84a1;
+  margin-bottom: 0;
+  font-family: Sf Pro Text, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.gen-icon {
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 0.75rem;
+  height: 0.75rem;
+}

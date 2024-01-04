@@ -1,46 +1,55 @@
 .getstarted {
-  background-image: url('../../img/city.jpg');
-  position: relative;
+  background-image: url('/public/img/city.png');
   background-size: cover;
   background-position: center center;
-  height: 100vh;
+  position: relative;
+  height: 50vh;
   padding-top: 70px;
-  content: "";
+}
+
+.overlay{
+  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   background: linear-gradient(0deg,#000000c9 30%,#cccccc3a 100%);
+  pointer-events: none;
 }
 
 .getstarted-header {
+  color: #f8f9fa!important;
   font-size: clamp(2rem,4vw,3.75rem);
   line-height: 1.16923;
   margin-bottom: 40px;
-  margin-left: 8px;
   margin-top: 80px;
   text-align: center;
+  position: relative;
 }
 
 .getstarted-paragraph {
-  margin-left: 75px;
-  margin-right: 160px;
+  color: #f8f9fa!important;
   margin-bottom: 25px;
   text-align: center;
+  position: relative;
 }
 
 .letstalk-button {
-font-weight: 400;
-color: black;
-background-color: #F07C68;
-border-radius: 1.25rem;
-padding: 0.6rem 1rem;
-transition: box-shadow .3s cubic-bezier(.912, -.005, .006, .989);
-text-decoration: none;
-display: block;
-text-align: center;}
+  color: black;
+  background-color: #F07C68;
+  font-weight: 400;
+  border-radius: 1.25rem;
+  padding: 0.6rem 1rem;
+  width: 70px;
+  transition: box-shadow .3s cubic-bezier(.912, -.005, .006, .989);
+  margin: auto;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  position: relative;
+}
 
 .letstalk-button:hover {
-color: black;
-box-shadow: 0px 3px 10px #F07C68
+  color: black;
+  box-shadow: 0px 3px 10px #F07C68
 }

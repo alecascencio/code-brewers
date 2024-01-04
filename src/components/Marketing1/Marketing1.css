@@ -1,8 +1,23 @@
 .marketing1 {
-  background-image: url('../../img/wrapper-4.svg');
+  background-image: url('/public/img/wrapper-4.svg');
   background-size: cover;
+  background-position: center center;
+  position: relative;
   height: 100vh;
   padding-top: 70px;
+}
+
+.overlay{
+  width: 70%;
+  height: auto;
+  background-image: linear-gradient(to right, rgba(15, 17, 23, 0), var(--black));
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: auto;
+  right: 0%;
+  transform: rotate(-180deg);
+  pointer-events: none;
 }
 
 .marketing1-header {
@@ -12,12 +27,14 @@
   margin-left: 75px;
   max-width: 600px;
   margin-top: 80px;
+  position: relative;
 }
 
 .marketing1-paragraph {
   margin-left: 75px;
   margin-right: 160px;
   margin-bottom: 25px;
+  position: relative;
 }
 
 .marketing1-button {
@@ -26,4 +43,5 @@
   margin-left: 75px;
   padding-bottom: 0.25rem;
   text-underline-offset: 8px;
+  position: relative;
 }

@@ -3,7 +3,7 @@ import './Network.css';
 const Network = () => {
   return (
     <section className='network container'>
-      <h2>Our Services</h2>
+      <h2 className='network-header'>Our Services</h2>
     </section>
   );
 };

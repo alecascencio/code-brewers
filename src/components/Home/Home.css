@@ -1,5 +1,5 @@
 .home {
-  background-image: url('../../img/wrapper-1.svg');
+  background-image: url('/public/img/wrapper-1.svg');
   background-size: cover;
   height: 100vh;
   padding-top: 70px;
@@ -67,7 +67,7 @@ a:hover {
 }
 
 .learn-more-button:hover {
-box-shadow: none;
-color: white;
-background-color: #4a5283;
+  box-shadow: none;
+  color: white;
+  background-color: #4a5283;
 }

@@ -4,7 +4,11 @@ const Sponsors = () => {
   return (
     <section className='sponsors container'>
       <div className='logo-wrap'>
-        <img src='../../img/CAPRA.png' alt='capra-logo' />
+        <img
+          className='logo'
+          src={require('../../img/CAPRA.png')}
+          alt='capra-logo'
+        />
       </div>
     </section>
   );
