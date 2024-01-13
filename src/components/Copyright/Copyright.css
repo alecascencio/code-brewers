@@ -1,0 +1,16 @@
+.copyright-wrap {
+  border-top: 1px solid #596177;
+  margin-top: 3rem;
+  margin-left: 9.5rem;
+  margin-right: 9.5rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.copyright-text {
+  font-family: "Poppins", sans-serif;
+  color: #6A738E;
+  text-align: center;
+  font-size: .875rem;
+  font-weight: 400;
+}

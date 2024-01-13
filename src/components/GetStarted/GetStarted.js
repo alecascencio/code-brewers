@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const GetStarted = () => {
   return (
     <section className='getstarted container'>
-      <div class='overlay'></div>
+      <div class='getstarted-overlay'></div>
       <h2 className='getstarted-header'>Ready to Take the Next Step?</h2>
       <p className='getstarted-paragraph'> Allow us to simplify your life.</p>
       <div>

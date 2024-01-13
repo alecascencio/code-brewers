@@ -1,4 +1,3 @@
-import React from 'react';
 import './Features.css';
 
 const Features = () => {
@@ -16,7 +15,7 @@ const Features = () => {
         <p>
           <img class='gen-icon' src='/img/tech-and-hiring.svg' alt='b-icon' />
           <span class='bullet-text'>
-            The tech and hiring scene is ever-evolving.{' '}
+            The tech and hiring scene is ever-evolving.
           </span>
           The tech and hiring scene is ever-evolving. Stay informed about the
           most recent growth areas.

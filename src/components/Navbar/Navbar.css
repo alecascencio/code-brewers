@@ -6,6 +6,7 @@
   font-family: "Poppins", sans-serif;
   color: white;
 }
+
 .navbar {
   position: fixed;
   display: flex;
@@ -16,12 +17,15 @@
   margin: 0 auto;
   background-color: rgba(15, 17, 23, 0.635);
 }
+
 .navbar h1 {
   color: #F07C68;
 }
+
 .navbar .links {
   margin-left: auto;
 }
+
 .navbar a {
   margin-left: 16px;
   text-decoration: none;

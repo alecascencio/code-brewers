@@ -2,5 +2,23 @@
   background-image: url('/public/img/wrapper-3.svg');
   background-size: cover;
   height: 100vh;
-  padding-top: 70px;
+  padding-top: 100px;
+}
+
+.marketing2-header {
+  font-size: clamp(2rem,4vw,3.75rem);
+  line-height: 1.16923;
+  margin-top: 40px;
+  margin-bottom: 2rem;
+  text-align: center;
+  position: relative;
+}
+
+.marketing2-paragraph {
+  margin-bottom: 25px;
+  margin: auto;
+  max-width: 32rem;
+  text-align: center;
+  position: relative;
+  color: #7a84a1
 }

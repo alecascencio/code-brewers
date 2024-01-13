@@ -4,7 +4,7 @@
   margin-bottom: 50px;
   margin-left: 160px;
   max-width: 600px;
-  margin-top: 80px;
+  margin-top: 100px;
 }
 
 .about-us-paragraph {
@@ -22,5 +22,68 @@
 }
 
 .about-us-button:hover {
-  color:#F07C68
+  color:#F07C68;
 }
+
+.espacio {
+  margin-bottom: 100px;
+}
+
+.section-background-desktop.is-right {
+  transform: rotate(-180deg);
+}
+
+.section-background-desktop {
+  padding: 50px;
+  position: absolute;
+  height: 100%;
+  top: auto;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  z-index: -1;
+}
+
+.background-desktop {
+  background-size: auto;
+  background-image: url('/public/img/wrapper-4.svg');
+  background-position: 0%;
+  background-size: contain;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  
+}
+
+.overlay-wrap {
+  z-index: 10;
+  position: absolute;
+  top: 0%;    
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.overlay-top {
+  height: 50%;
+  background-image: linear-gradient(to bottom, #0f1117, rgba(15, 17, 23, 0));
+}
+
+.overlay-bottom {
+  height: 50%;
+  background-image: linear-gradient(to bottom, rgba(15, 17, 23, 0), #0f1117);
+}
+
+.overlay-right {
+  width: 70%;
+  height: auto;
+  background-image: linear-gradient(to right, rgba(15, 17, 23, 0), #0f1117);
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: auto;
+  right: 0%;
+}
+
