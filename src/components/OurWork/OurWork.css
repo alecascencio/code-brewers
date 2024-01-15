@@ -1,17 +1,19 @@
+.aboutus {
+  display: flex;
+  margin: 200px 0 0 0;
+  position: relative;
+}
+
 .about-us-header {
   font-size: clamp(2rem,4vw,3.75rem);
   line-height: 1.16923;
   margin-bottom: 50px;
-  margin-left: 160px;
   max-width: 600px;
-  margin-top: 100px;
 }
 
 .about-us-paragraph {
-  margin-left: 160px;
   margin-right: 160px;
   margin-bottom: 25px;
-  padding-right: 600px;
 }
 
 .about-us-button {
@@ -21,12 +23,22 @@
   text-underline-offset: 8px;
 }
 
-.about-us-button:hover {
-  color:#F07C68;
+.about-us-info {
+  width: 60%;
 }
 
-.espacio {
-  margin-bottom: 100px;
+.about-us-img-wrapper {
+  width: 40%;
+}
+
+.about-us-img {
+  border: 5px solid white;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.about-us-button:hover {
+  color:#F07C68;
 }
 
 .section-background-desktop.is-right {

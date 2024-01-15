@@ -1,14 +1,15 @@
 .marketing2 {
   background-image: url('/public/img/wrapper-3.svg');
   background-size: cover;
-  height: 100vh;
-  padding-top: 100px;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .marketing2-header {
   font-size: clamp(2rem,4vw,3.75rem);
   line-height: 1.16923;
-  margin-top: 40px;
   margin-bottom: 2rem;
   text-align: center;
   position: relative;
@@ -17,8 +18,33 @@
 .marketing2-paragraph {
   margin-bottom: 25px;
   margin: auto;
-  max-width: 32rem;
+  max-width: 80%;
   text-align: center;
   position: relative;
   color: #7a84a1
+}
+
+.marketing2-button {
+  margin-top: 40px;
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 0.6rem 1rem;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  background-color: #F07C68;
+  border-radius: 1.25rem;
+
+}
+
+.blur-wrap {
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  background-image: linear-gradient(to top, rgba(51, 55, 81, .4), rgba(15, 17, 23, .24));
+  border: 1px solid #424972;
+  border-radius: 0.375rem;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 2rem;
+  display: flex;
 }

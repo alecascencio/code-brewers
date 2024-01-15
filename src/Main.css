@@ -3,9 +3,19 @@ body {
 }
 
 .container {
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 20%;
+  padding-right: 20%;
 }
+
+/* Container should be responsive */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+
 
 .App {
   text-align: center;
@@ -44,4 +54,9 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+
+p {
+  font-size: 20px;
+  line-height: 26px;
 }

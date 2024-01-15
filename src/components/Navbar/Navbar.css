@@ -13,9 +13,10 @@
   align-items: center;
   box-sizing: border-box;
   width: 100%;
-  padding: 20px 10%;
+  padding: 30px 10%;
   margin: 0 auto;
   background-color: rgba(15, 17, 23, 0.635);
+  z-index: 9999;
 }
 
 .navbar h1 {
@@ -30,17 +31,19 @@
   margin-left: 16px;
   text-decoration: none;
   padding: 0.6rem 1rem;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .get-started-button {
-font-weight: 400;
-color: black;
-background-color: #F07C68;
-border-radius: 1.25rem;
-transition: box-shadow .3s cubic-bezier(.912, -.005, .006, .989);
+  font-weight: 400;
+  color: black;
+  background-color: #F07C68;
+  border-radius: 1.25rem;
+  transition: box-shadow .3s cubic-bezier(.912, -.005, .006, .989);
 }
 
 .get-started-button:hover {
-color: black;
-box-shadow: 0px 3px 10px #F07C68
+  color: black;
+  box-shadow: 0px 3px 10px #F07C68;
 }

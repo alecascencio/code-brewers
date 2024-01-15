@@ -5,10 +5,10 @@ const Navbar = () => {
     <section className='navbar container'>
       <h1>codeBrewers</h1>
       <div className='links'>
-        <a href='/about-us'>About</a>
-        <a href='/create'>Services</a>
-        <a href='/create'>Insights</a>
-        <a href='/create'>Upload Resume</a>
+        <a href='#'>About</a>
+        <a href='#'>Services</a>
+        <a href='#'>Insights</a>
+        <a href='#'>Upload Resume</a>
         <a href='/contact-us' className='get-started-button'>
           Get Started
         </a>

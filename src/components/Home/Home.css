@@ -3,16 +3,16 @@
   background-size: cover;
   height: 100vh;
   padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-#nexaminds-2{
+#header-2 {
   font-size: 2.5rem;
-  margin-top: 100px;
-  margin-right: 500px;
-  margin-left: 70px;
 }
 
-#exceptional{
+#exceptional {
   font-weight: bolder;
   color: #F07C68;
 }
@@ -20,8 +20,6 @@
 .home-header {
   margin-top: 0px;
   margin-bottom: 0;
-  margin-right: 500px;
-  margin-left: 70px;
   font-size: 4.5rem;
   font-weight: 400;
   line-height: 115%;
@@ -29,14 +27,8 @@
 }
 
 .home-paragraph {
-  margin-right: 500px;
-  margin-left: 70px;
   margin-bottom: 40px;
   padding-top: 1rem
-}
-
-a:hover {
-  color: #F07C68;
 }
 
 .work-with-us-button {
@@ -45,7 +37,6 @@ a:hover {
   background-color: #F07C68;
   border-radius: 1.25rem;
   padding: 0.6rem 1rem;
-  margin-left: 70px;
   transition: box-shadow .3s cubic-bezier(.912, -.005, .006, .989);
   text-decoration: none;
 }
@@ -70,4 +61,8 @@ a:hover {
   box-shadow: none;
   color: white;
   background-color: #4a5283;
+}
+
+.home-wrapper {
+  margin-bottom: 150px;
 }
