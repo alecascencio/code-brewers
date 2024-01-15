@@ -1,21 +1,137 @@
-.contact-us {
+*, *:before, *:after {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button, input {
+  font-weight: 700;
+  letter-spacing: 1.4px;
+}
+
+.wallpaper {
   background-image: url('/public/img/wrapper-5.svg');
   background-size: cover;
   height: 100vh;
-  padding-top: 70px;
 }
 
-.contact-us-header {
-  font-size: clamp(2rem,4vw,3.75rem);
-  line-height: 1.16923;
-  margin-bottom: 30px;
-  max-width: 600px;
-  margin-top: 80px;
+.contact-mega-title {
+  text-align: center;
+  padding: 8rem 8rem 0;
+  font-size: 59px;
 }
 
-.contact-us-paragraph {
-  margin-right: 160px;
-  margin-bottom: 25px;
-  padding-right: 600px;
-  line-height: 1.5;
+.contact-background {
+  display: flex;
+  min-height: 100vh;
 }
+
+.contact-container {
+  flex: 0 1 700px;
+  margin: auto;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.screen {
+  position: relative;
+  background-color: #0f1117;
+  border: 1px solid #313755;
+  border-radius: 0.375rem;
+}
+
+.screen:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  right: 20px;
+  bottom: 0;
+  border-radius: 15px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+  z-index: -1;
+}
+
+.screen-header {
+  align-items: center;
+  padding: 20px 20px;
+  background: #4a5283;
+  border-top-left-radius: 0.375rem;
+  border-top-right-radius: 0.375rem;
+}
+
+.screen-body-item {
+  flex: 1;
+  padding: 50px;
+  padding-bottom: 30px;
+}
+
+.contact-title {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 5px;
+  font-weight: 550;
+}
+
+.contact-subtitle {
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+
+.contact-group {
+  margin-bottom: 15px;
+}
+
+.contact-group.message {
+  margin-top: 40px;
+}
+
+.contact-group.buttons {
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.contact-line {
+  width: 100%;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #333751;
+  color: #ddd;
+  font-size: 14px;
+  outline: none;
+  transition: border-color .2s;
+}
+
+.contact-line::placeholder {
+  color: #707995;
+}
+
+.contact-line:focus {
+  border-bottom-color: #707995;
+}
+
+.contact-line:hover {
+  border-color: #707995;
+}
+
+.contact-button {
+  margin-top: 15px;
+  font-weight: 550;
+  background-color: #f07C68;
+  border-radius: 1.25rem;
+  padding: 0.6rem 1rem;
+  border: 1px solid #f07C68;
+  transition: box-shadow .3s cubic-bezier(.912, -.005, .006, .989);
+  text-decoration: none;
+}
+
+.contact-button:hover {
+  box-shadow: 0px 3px 10px #f07C68
+}
+
