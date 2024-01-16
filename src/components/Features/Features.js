@@ -31,9 +31,7 @@ const Features = () => {
 
         <p>
           <img className='gen-icon' src='/img/incorporable.svg' alt='c-icon' />
-          <span className='bullet-text'>
-            Incorporable object perspectives.{' '}
-          </span>
+          <span className='bullet-text'>Incorporable object perspectives.</span>
           Integrate a view into any internal tool or public website.
         </p>
 

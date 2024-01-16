@@ -7,7 +7,7 @@ const Sponsors = () => {
         These are some of the companies that <span>trust us</span>
       </h2>
       <div className='logo-wrap'>
-        <a target='_blanck' href='https://www.instagram.com/acnecontrolmx/'>
+        <a target='_blanck' href='https://www.facebook.com/acnecontrolmx'>
           <img
             src='/img/acne-control.png'
             loading='lazy'
@@ -29,7 +29,7 @@ const Sponsors = () => {
             className='integration-logo'
           />
         </a>
-        <a target='_blanck' href='https://www.instagram.com/floreriasuspiros/'>
+        <a target='_blanck' href='https://www.facebook.com/floreriasuspiros'>
           <img
             src='/img/floreria.png'
             loading='lazy'

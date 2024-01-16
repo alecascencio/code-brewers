@@ -1,5 +1,4 @@
 import './AboutUs.css';
-import { Link } from 'react-router-dom';
 
 const AboutUs = () => {
   return (
@@ -7,13 +6,15 @@ const AboutUs = () => {
       <div className='about-us-info'>
         <h2 className='about-us-header'> Built by IT Recruiters</h2>
         <p className='about-us-paragraph'>
-          A tech-aligned staffing agency prioritizing results in the realm of
-          technology + recruitment
+          CodeBrewers is a high-performing and leading IT staffing agency
+          crafted by experienced recruiters. Our focus is on delivering results
+          efficiently, adapting swiftly to the evolving demands of today's tech
+          landscape.
         </p>
         <div>
-          <Link to='/about-us' className='about-us-button'>
-            About Us
-          </Link>
+          <a href='#traits' className='about-us-button'>
+            Our Highlights
+          </a>
         </div>
       </div>
       <div className='about-us-img-wrapper'>
