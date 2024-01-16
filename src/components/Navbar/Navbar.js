@@ -19,8 +19,28 @@ const Navbar = () => {
           <img src='/img/logo-cb.png' loading='lazy' alt='cb en Logo' />
         </a>
         <div className='links'>
-          <a href='#about-us'>About Us</a>
-          <a href='#traits'>Traits</a>
+          <a
+            href='/'
+            onClick={(e) => {
+              let element = document.getElementById('about-us');
+              e.preventDefault();
+              element &&
+                element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }}
+          >
+            About Us
+          </a>
+          <a
+            href='/'
+            onClick={(e) => {
+              let element = document.getElementById('traits');
+              e.preventDefault();
+              element &&
+                element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            }}
+          >
+            Traits
+          </a>
           <a
             target='_blank'
             rel='noreferrer'
@@ -44,8 +64,36 @@ const Navbar = () => {
         </div>
         {openMenu && (
           <div className='mobile-links'>
-            <a href='#about-us'>About Us</a>
-            <a href='#traits'>Traits</a>
+            <a
+              href='/'
+              onClick={(e) => {
+                setOpenMenu(false);
+                let element = document.getElementById('about-us');
+                e.preventDefault();
+                element &&
+                  element.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'center',
+                  });
+              }}
+            >
+              About Us
+            </a>
+            <a
+              href='/'
+              onClick={(e) => {
+                setOpenMenu(false);
+                let element = document.getElementById('traits');
+                e.preventDefault();
+                element &&
+                  element.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'center',
+                  });
+              }}
+            >
+              Traits
+            </a>
             <a
               target='_blank'
               rel='noreferrer'

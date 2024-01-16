@@ -12,7 +12,15 @@ const AboutUs = () => {
           landscape.
         </p>
         <div>
-          <a href='#traits' className='about-us-button'>
+          <a
+            href='/'
+            className='about-us-button'
+            onClick={e => {
+              let element = document.getElementById("traits");
+              e.preventDefault();
+              element && element.scrollIntoView({ behavior: "smooth", block: "center" });
+            }}
+          >
             Our Highlights
           </a>
         </div>

@@ -18,7 +18,15 @@ const Home = () => {
           <Link to='/contact-us' className='work-with-us-button'>
             Work with us
           </Link>
-          <a href='#traits' className='learn-more-button'>
+          <a
+            href='/'
+            className='learn-more-button'
+            onClick={e => {
+              let element = document.getElementById("traits");
+              e.preventDefault();
+              element && element.scrollIntoView({ behavior: "smooth", block: "center" });
+            }}
+          >
             Learn more
           </a>
         </div>
