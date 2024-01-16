@@ -13,7 +13,7 @@
   align-items: center;
   box-sizing: border-box;
   width: 100%;
-  padding: 10px 11%;
+  padding: 10px 10%;
   margin: 0 auto;
   background-color: rgba(15, 17, 23, 0.9);
   z-index: 9999;
@@ -73,6 +73,12 @@
   }
 }
 
+@media (max-width: 1000px) {
+  .navbar {
+    padding: 10px 30px;
+  }
+}
+
 @media (min-width: 768px) {
   .mobile-menu {
     display: none!important;
@@ -120,7 +126,7 @@
 }
 
 .mobile-menu-icon {
-  width: 30px;
+  max-width: 30px!important;
 }
 
 .desktop-menu {
