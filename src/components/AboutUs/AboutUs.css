@@ -102,3 +102,31 @@
   right: 0%;
 }
 
+/* flex direction column on mobile */
+@media (max-width: 768px) {
+  .aboutus {
+    flex-direction: column;
+  }
+
+  .about-us-info {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+
+  .about-us-img-wrapper {
+    width: 100%;
+  }
+
+  .about-us-header {
+    text-align: center;
+  }
+
+  .about-us-paragraph {
+    margin-right: 0px;
+    text-align: center;
+  }
+
+  .about-us-link {
+    text-align: center;
+  }
+}

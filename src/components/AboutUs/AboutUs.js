@@ -11,7 +11,7 @@ const AboutUs = () => {
           efficiently, adapting swiftly to the evolving demands of today's tech
           landscape.
         </p>
-        <div>
+        <div className='about-us-link'>
           <a
             href='/'
             className='about-us-button'
