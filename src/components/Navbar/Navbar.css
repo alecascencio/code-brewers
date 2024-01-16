@@ -13,18 +13,30 @@
   align-items: center;
   box-sizing: border-box;
   width: 100%;
-  padding: 30px 11%;
+  padding: 10px 11%;
   margin: 0 auto;
   background-color: rgba(15, 17, 23, 0.9);
   z-index: 9999;
 }
 
-.navbar h1 {
-  color: #f07C68;
+.navbar-logo-wrap {
+  padding: 0 !important;
+}
+
+.w-inline-block {
+  max-width: 60%;
+  display: inline-block;
+}
+
+.navbar img {
+  width: 230px;  
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .navbar .links {
   margin-left: auto;
+  margin-top: 20px
 }
 
 .navbar a {
@@ -115,3 +127,4 @@
   width: 100%;
   display: flex;
 }
+

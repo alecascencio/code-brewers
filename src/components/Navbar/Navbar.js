@@ -2,36 +2,50 @@ import { useState } from 'react';
 import './Navbar.css';
 
 const Navbar = () => {
-  const [openMenu, setOpenMenu] = useState(false)
+  const [openMenu, setOpenMenu] = useState(false);
 
   const toggleMenu = () => {
-    setOpenMenu(!openMenu)
-  }
+    setOpenMenu(!openMenu);
+  };
 
   return (
     <section className='navbar container'>
-      <div className="desktop-menu">
-        <h1>codeBrewers</h1>
+      <div className='desktop-menu'>
+        <a
+          href='/'
+          aria-current='page'
+          className='navbar-logo-wrap w-inline-block w--current'
+        >
+          <img src='/img/logo-cb.png' loading='lazy' alt='cb en Logo' />
+        </a>
         <div className='links'>
           <a
             href='/'
-            onClick={e => {
-              let element = document.getElementById("about-us");
+            onClick={(e) => {
+              let element = document.getElementById('about-us');
               e.preventDefault();
-              element && element.scrollIntoView({ behavior: "smooth", block: "center" });
+              element &&
+                element.scrollIntoView({ behavior: 'smooth', block: 'center' });
             }}
-          >About Us</a>
+          >
+            About Us
+          </a>
           <a
             href='/'
-            onClick={e => {
-              let element = document.getElementById("traits");
+            onClick={(e) => {
+              let element = document.getElementById('traits');
               e.preventDefault();
-              element && element.scrollIntoView({ behavior: "smooth", block: "center" });
+              element &&
+                element.scrollIntoView({ behavior: 'smooth', block: 'center' });
             }}
           >
             Traits
           </a>
-          <a target='_blank' rel="noreferrer" href='https://www.linkedin.com/feed/'>
+          <a
+            target='_blank'
+            rel='noreferrer'
+            href='https://www.linkedin.com/feed/'
+          >
             LinkedIn
           </a>
           <a href='/contact-us' className='get-started-button'>
@@ -39,50 +53,59 @@ const Navbar = () => {
           </a>
         </div>
       </div>
-      <div className="mobile-menu">
+      <div className='mobile-menu'>
         <h1>codeBrewers</h1>
-        <div
-          className='mobile-menu-toggle'
-          onClick={toggleMenu}
-        >
+        <div className='mobile-menu-toggle' onClick={toggleMenu}>
           <img
-            className="mobile-menu-icon"
-            src="/img/menu-burger.svg"
-            alt="Menu Icon" />
+            className='mobile-menu-icon'
+            src='/img/menu-burger.svg'
+            alt='Menu Icon'
+          />
         </div>
-        { openMenu && 
+        {openMenu && (
           <div className='mobile-links'>
             <a
               href='/'
-              onClick={e => {
-                setOpenMenu(false)
-                let element = document.getElementById("about-us");
+              onClick={(e) => {
+                setOpenMenu(false);
+                let element = document.getElementById('about-us');
                 e.preventDefault();
-                element && element.scrollIntoView({ behavior: "smooth", block: "center" });
+                element &&
+                  element.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'center',
+                  });
               }}
             >
               About Us
             </a>
             <a
               href='/'
-              onClick={e => {
-                setOpenMenu(false)
-                let element = document.getElementById("traits");
+              onClick={(e) => {
+                setOpenMenu(false);
+                let element = document.getElementById('traits');
                 e.preventDefault();
-                element && element.scrollIntoView({ behavior: "smooth", block: "center" });
+                element &&
+                  element.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'center',
+                  });
               }}
             >
               Traits
             </a>
-            <a target='_blank' rel="noreferrer" href='https://www.linkedin.com/feed/'>
+            <a
+              target='_blank'
+              rel='noreferrer'
+              href='https://www.linkedin.com/feed/'
+            >
               LinkedIn
             </a>
             <a href='/contact-us' className='get-started-button-mobile'>
               Get Started
             </a>
           </div>
-        }
-
+        )}
       </div>
     </section>
   );
