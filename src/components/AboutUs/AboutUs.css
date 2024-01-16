@@ -40,6 +40,11 @@
   margin-top: 20px;
 }
 
+.about-us-button {
+  color: white;
+  transition: color .3s ease
+}
+
 .about-us-button:hover {
   color:#f07c68;
 }
