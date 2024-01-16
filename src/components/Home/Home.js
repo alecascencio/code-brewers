@@ -18,8 +18,7 @@ const Home = () => {
           <Link to='/contact-us' className='work-with-us-button'>
             Work with us
           </Link>
-
-          <a href='#our-work' className='learn-more-button'>
+          <a href='#traits' className='learn-more-button'>
             Learn more
           </a>
         </div>

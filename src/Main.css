@@ -3,8 +3,8 @@ body {
 }
 
 .container {
-  padding-left: 20%;
-  padding-right: 20%;
+  padding-left: 11%;
+  padding-right: 11%;
 }
 
 /* Container should be responsive */
@@ -14,8 +14,6 @@ body {
     padding-right: 10%;
   }
 }
-
-
 
 .App {
   text-align: center;

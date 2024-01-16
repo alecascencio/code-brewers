@@ -41,21 +41,20 @@
 
 .letstalk-button {
   color: black;
-  background-color: #F07C68;
-  font-weight: bold;;
+  background-color: #f07c68;
+  background-image: linear-gradient(135deg, #f07c68, #f7aa9e);
   border-radius: 1.25rem;
   padding: 0.6rem 1rem;
-  width: 90px;
+  width: 100px;
   transition: box-shadow .3s cubic-bezier(.912, -.005, .006, .989);
   margin: auto;
   text-decoration: none;
   display: block;
   text-align: center;
   position: relative;
-  font-size: 20px
 }
 
 .letstalk-button:hover {
   color: black;
-  box-shadow: 0px 3px 10px #F07C68
+  box-shadow: 0px 3px 10px #f07c68
 }

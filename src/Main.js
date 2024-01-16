@@ -1,8 +1,8 @@
 import './Main.css';
 import Home from './components/Home/Home';
 import Sponsors from './components/Sponsors/Sponsors';
-import OurWork from './components/OurWork/OurWork';
-import Marketing2 from './components/Marketing2/Marketing2';
+import AboutUs from './components/AboutUs/AboutUs';
+import OurTeam from './components/OurTeam/OurTeam';
 import Features from './components/Features/Features';
 import GetStarted from './components/GetStarted/GetStarted';
 import Footer from './components/Footer/Footer';
@@ -13,8 +13,8 @@ function Main() {
     <>
       <Home />
       <Sponsors />
-      <OurWork />
-      <Marketing2 />
+      <AboutUs />
+      <OurTeam />
       <Features />
       <GetStarted />
       <Footer />

@@ -1,6 +1,6 @@
 .aboutus {
   display: flex;
-  margin: 200px 0 0 0;
+  margin: 120px 0 60px 0;
   position: relative;
 }
 
@@ -32,13 +32,13 @@
 }
 
 .about-us-img {
-  border: 5px solid white;
+  border: 5px solid #f7aa9e;
   width: 100%;
   border-radius: 10px;
 }
 
 .about-us-button:hover {
-  color:#F07C68;
+  color:#f07c68;
 }
 
 .section-background-desktop.is-right {

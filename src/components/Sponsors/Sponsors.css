@@ -7,16 +7,16 @@
 }
 
 .section-integration span {
-  color: #F07C68;
+  color: #f07c68;
 }
 
 .logo-wrap {
-  gap: 50px;
+  gap: 100px;
   display: flex;
   justify-content: center;
 }
 
 .integration-logo {
-  height: 8rem;
+  height: 7rem;
 }
 

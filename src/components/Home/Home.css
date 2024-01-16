@@ -35,6 +35,7 @@
   font-weight: 400;
   color: black;
   background-color: #F07C68;
+  background-image: linear-gradient(135deg, #f07c68, #f7aa9e);
   border-radius: 1.25rem;
   padding: 0.6rem 1rem;
   transition: box-shadow .3s cubic-bezier(.912, -.005, .006, .989);

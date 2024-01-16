@@ -2,18 +2,26 @@ import './Features.css';
 
 const Features = () => {
   return (
-    <section className='features container'>
+    <section className='features container' id='traits'>
       <h2 className='features-header'>Features</h2>
       <div className='features-paragraph'>
         <p>
-          <img className='gen-icon' src='/img/adaptable-schema.svg' alt='a-icon' />
+          <img
+            className='gen-icon'
+            src='/img/adaptable-schema.svg'
+            alt='a-icon'
+          />
           <span className='bullet-text'>Adaptable schema. </span>
           Modify your data model whenever needed, without altering your data
           warehouse or other foundational data resources.
         </p>
 
         <p>
-          <img className='gen-icon' src='/img/tech-and-hiring.svg' alt='b-icon' />
+          <img
+            className='gen-icon'
+            src='/img/tech-and-hiring.svg'
+            alt='b-icon'
+          />
           <span className='bullet-text'>
             The tech and hiring scene is ever-evolving.
           </span>
@@ -23,7 +31,9 @@ const Features = () => {
 
         <p>
           <img className='gen-icon' src='/img/incorporable.svg' alt='c-icon' />
-          <span className='bullet-text'>Incorporable object perspectives. </span>
+          <span className='bullet-text'>
+            Incorporable object perspectives.{' '}
+          </span>
           Integrate a view into any internal tool or public website.
         </p>
 
@@ -54,7 +64,11 @@ const Features = () => {
         </p>
 
         <p>
-          <img className='gen-icon' src='/img/logging-trails.svg' alt='a-icon' />
+          <img
+            className='gen-icon'
+            src='/img/logging-trails.svg'
+            alt='a-icon'
+          />
           <span className='bullet-text'>Logging trails. </span>
           Comprehensive records for data access, schema modifications, and all
           other activities.
