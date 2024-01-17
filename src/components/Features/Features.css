@@ -8,12 +8,17 @@
 
 .features-paragraph {
   margin-bottom: 100px;
-  grid-column-gap: 2rem;
-  grid-row-gap: 2rem;
-  grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-auto-columns: 1fr;
-  display: grid;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .features-paragraph {
+    flex-direction: column;
+  }
+
+  .features-paragraph p {
+    margin-bottom: 50px;
+  }
 }
 
 .bullet-text {
