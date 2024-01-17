@@ -1,6 +1,49 @@
+import { useState } from 'react';
+import axios from 'axios';
 import './ContactUs.css';
 
 const ContactUs = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phoneNumber: '',
+    company: '',
+    message: '',
+  });
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const sendEmail = async () => {
+    try {
+      const apiUrl =
+        'https://better-cod-cuff.cyclic.app/send-email-codebrewers';
+      const emailPayload = {
+        from: 'hello@codebrewers.io',
+        to: 'hello@codebrewers.io',
+        subject: 'CLIENT',
+        html: `<div>Name: ${formData.name}<br>Email: ${formData.email}<br>Phone Number: ${formData.phoneNumber}<br>Company: ${formData.company}<br>Message: ${formData.message}</div>`,
+      };
+
+      const response = await axios.post(apiUrl, emailPayload);
+      console.log('Email sent successfully:', response.data);
+
+      setFormData({
+        name: '',
+        email: '',
+        phoneNumber: '',
+        company: '',
+        message: '',
+      });
+      alert('Email sent successfully!');
+    } catch (error) {
+      console.error('Error sending email:', error);
+      alert('Error sending email.');
+    }
+  };
+
   return (
     <section className='wallpaper'>
       <h1 className='contact-mega-title'>
@@ -20,22 +63,54 @@ const ContactUs = () => {
             <div className='screen-body-item'>
               <div className='contact'>
                 <div className='contact-group'>
-                  <input className='contact-line' placeholder='Name' />
+                  <input
+                    className='contact-line'
+                    placeholder='Name'
+                    name='name'
+                    value={formData.name}
+                    onChange={handleInputChange}
+                  />
                 </div>
                 <div className='contact-group'>
-                  <input className='contact-line' placeholder='Email' />
+                  <input
+                    className='contact-line'
+                    placeholder='Email'
+                    name='email'
+                    value={formData.email}
+                    onChange={handleInputChange}
+                  />
                 </div>
                 <div className='contact-group'>
-                  <input className='contact-line' placeholder='Phone Number' />
+                  <input
+                    className='contact-line'
+                    placeholder='Phone Number'
+                    name='phoneNumber'
+                    value={formData.phoneNumber}
+                    onChange={handleInputChange}
+                  />
                 </div>
                 <div className='contact-group'>
-                  <input className='contact-line' placeholder='Company' />
+                  <input
+                    className='contact-line'
+                    placeholder='Company'
+                    name='company'
+                    value={formData.company}
+                    onChange={handleInputChange}
+                  />
                 </div>
                 <div className='contact-group message'>
-                  <input className='contact-line' placeholder='Your Message' />
+                  <input
+                    className='contact-line'
+                    placeholder='Your Message'
+                    name='message'
+                    value={formData.message}
+                    onChange={handleInputChange}
+                  />
                 </div>
                 <div className='contact-group buttons'>
-                  <button className='contact-button'>Submit</button>
+                  <button className='contact-button' onClick={sendEmail}>
+                    Submit
+                  </button>
                 </div>
               </div>
             </div>
