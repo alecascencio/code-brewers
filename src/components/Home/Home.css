@@ -71,3 +71,14 @@
 .home-wrapper {
   margin-bottom: 150px;
 }
+
+/* when screen is less than 768px */
+@media (max-width: 768px) {
+  .home-wrapper {
+    text-align: center;
+  }
+
+  .home-header {
+    font-size: 2.5rem;
+  }
+}
