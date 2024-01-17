@@ -54,7 +54,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className='mobile-menu'>
-        <h1>codeBrewers</h1>
+        <img src='/img/logo-cb.png' loading='lazy' alt='cb en Logo' />
         <div className='mobile-menu-toggle' onClick={toggleMenu}>
           <img
             className='mobile-menu-icon'

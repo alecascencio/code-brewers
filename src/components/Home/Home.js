@@ -1,12 +1,10 @@
 import './Home.css';
 import { Link } from 'react-router-dom';
-import './fonts.css';
 
 const Home = () => {
   return (
     <section className='home container'>
       <div className='home-wrapper'>
-        <h2 id='header-2'>codeBrewers</h2>
         <h2 className='home-header'>Looking for</h2>
         <h2 id='exceptional' className='home-header'>
           exceptional

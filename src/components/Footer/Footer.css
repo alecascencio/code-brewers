@@ -1,4 +1,4 @@
-.footer img {
+.footer .logo {
   width: 230px;  
   display: inline-block;
   vertical-align: middle;
@@ -10,11 +10,6 @@
   color: #7a84a1;
   margin-top: 1rem;
   font-size: 15px;
-}
-
-.spacer-small {
-  width: 100%;
-  padding-top: 1rem;
 }
 
 .link-block {
@@ -35,4 +30,5 @@
   width: 2rem;
   height: 2rem;
   color: #596177;
+  margin-top: 1em;
 }
