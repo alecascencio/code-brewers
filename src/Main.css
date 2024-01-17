@@ -58,3 +58,10 @@ p {
   font-size: 20px;
   line-height: 26px;
 }
+
+@font-face {
+  font-family: 'PixelifySans';
+  src: local('PixelifySans'), url('./PixelifySans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

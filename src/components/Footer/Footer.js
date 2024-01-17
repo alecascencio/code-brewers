@@ -8,11 +8,10 @@ const Footer = () => {
         aria-current='page'
         className='navbar-logo-wrap w-inline-block w--current'
       >
-        <img src='/img/logo-cb.png' loading='lazy' alt='cb en Logo' />
+        <img src='/img/logo-cb.png' className='logo' loading='lazy' alt='cb en Logo' />
       </a>{' '}
       <div className='footer-paragraph'>
         <p>Enhancing global efficiency and effectiveness</p>
-        <div className='spacer-small'></div>
         <a
           href='https://www.linkedin.com/feed/'
           target='_blank'
@@ -24,7 +23,7 @@ const Footer = () => {
             loading='lazy'
             alt='linkedin-icon'
             className='icon-1x1-medium'
-          ></img>
+          />
         </a>
       </div>
     </section>
