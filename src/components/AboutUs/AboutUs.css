@@ -9,6 +9,13 @@
   line-height: 1.16923;
   margin-bottom: 50px;
   max-width: 600px;
+  font-family: 'Quicksand'
+}
+
+.about-us-header span {
+  color: #F07C68;
+  font-family: 'PixelifySans';
+  font-weight: bold;
 }
 
 .about-us-paragraph {

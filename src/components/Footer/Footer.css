@@ -1,16 +1,15 @@
-.footer-header {
-  margin-top: 3rem;
-  font-size: 1.5rem;
-  color: #F07C68
+.footer img {
+  width: 230px;  
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 40px;
 }
 
-.footer-paragraph {
+.footer-paragraph p{
   font-family: "Poppins", sans-serif;
   color: #7a84a1;
-  margin-top: 2rem;
-  margin-bottom: 0;
-  font-size: .875rem;
-  font-weight: 400;  
+  margin-top: 1rem;
+  font-size: 15px;
 }
 
 .spacer-small {

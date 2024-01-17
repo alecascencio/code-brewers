@@ -3,7 +3,9 @@ import './ContactUs.css';
 const ContactUs = () => {
   return (
     <section className='wallpaper'>
-      <h1 className='contact-mega-title'> How can we help?</h1>
+      <h1 className='contact-mega-title'>
+        How can we <span>help?</span>
+      </h1>
       <div className='contact-background'>
         <div className='contact-container'>
           <div className='screen'>

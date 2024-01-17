@@ -10,7 +10,7 @@ const OurTeam = () => {
           We prioritize care. Our focus is on quality—achieving it and
           maintaining it. That's why we've embraced 'Excellence Through
           Comprehension' as our motto since the start. Our objective is to
-          discover top-tier tech talent, assist you in achieving your
+          discover elite mexican tech talent, assist you in achieving your
           objectives, and secure the satisfaction of everyone.
         </p>
         <Link to='/contact-us' className='ourteam-button'>

@@ -1,5 +1,6 @@
 import './Home.css';
 import { Link } from 'react-router-dom';
+import './fonts.css';
 
 const Home = () => {
   return (
@@ -21,10 +22,11 @@ const Home = () => {
           <a
             href='/'
             className='learn-more-button'
-            onClick={e => {
-              let element = document.getElementById("traits");
+            onClick={(e) => {
+              let element = document.getElementById('traits');
               e.preventDefault();
-              element && element.scrollIntoView({ behavior: "smooth", block: "center" });
+              element &&
+                element.scrollIntoView({ behavior: 'smooth', block: 'center' });
             }}
           >
             Learn more

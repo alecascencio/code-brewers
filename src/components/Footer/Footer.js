@@ -3,7 +3,13 @@ import './Footer.css';
 const Footer = () => {
   return (
     <section className='footer container'>
-      <h2 className='footer-header'>codeBrewers</h2>
+      <a
+        href='/'
+        aria-current='page'
+        className='navbar-logo-wrap w-inline-block w--current'
+      >
+        <img src='/img/logo-cb.png' loading='lazy' alt='cb en Logo' />
+      </a>{' '}
       <div className='footer-paragraph'>
         <p>Enhancing global efficiency and effectiveness</p>
         <div className='spacer-small'></div>

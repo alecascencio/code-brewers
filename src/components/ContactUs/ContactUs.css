@@ -21,6 +21,11 @@ button, input {
   font-size: 59px;
 }
 
+.contact-mega-title span {
+  color: #F07C68;
+  font-family: 'PixelifySans';
+}
+
 .contact-background {
   display: flex;
   min-height: 100vh;

@@ -8,11 +8,12 @@
 }
 
 .ourteam-header {
-  font-size: clamp(2rem,4vw,3.75rem);
+  font-size: clamp(2rem,4vw,3.50rem);
   line-height: 1.16923;
   margin-bottom: 2rem;
   text-align: center;
   position: relative;
+  font-family: 'Quicksand'
 }
 
 .ourteam-paragraph {

@@ -1,3 +1,4 @@
+
 .home {
   background-image: url('/public/img/wrapper-1.svg');
   background-size: cover;
@@ -13,8 +14,9 @@
 }
 
 #exceptional {
-  font-weight: bolder;
   color: #F07C68;
+  font-family: 'PixelifySans';
+  font-weight: 500;
 }
 
 .home-header {
@@ -23,12 +25,14 @@
   font-size: 4.5rem;
   font-weight: 400;
   line-height: 115%;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Quicksand';
 }
 
 .home-paragraph {
   margin-bottom: 40px;
-  padding-top: 1rem
+  padding-top: 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
 }
 
 .work-with-us-button {

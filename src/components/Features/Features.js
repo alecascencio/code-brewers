@@ -11,9 +11,12 @@ const Features = () => {
             src='/img/adaptable-schema.svg'
             alt='a-icon'
           />
-          <span className='bullet-text'>Adaptable schema. </span>
-          Modify your data model whenever needed, without altering your data
-          warehouse or other foundational data resources.
+          <span className='bullet-text'>
+            Service and Delivery Distinction.{' '}
+          </span>
+          At codeBrewers, everything – our structure, culture, and business
+          approach – revolves around providing an unparalleled customer
+          experience and delivering outstanding business results.
         </p>
 
         <p>
@@ -23,7 +26,7 @@ const Features = () => {
             alt='b-icon'
           />
           <span className='bullet-text'>
-            The tech and hiring scene is ever-evolving.
+            Proven International Performance.{' '}
           </span>
           The tech and hiring scene is ever-evolving. Stay informed about the
           most recent growth areas.
@@ -31,45 +34,21 @@ const Features = () => {
 
         <p>
           <img className='gen-icon' src='/img/incorporable.svg' alt='c-icon' />
-          <span className='bullet-text'>Incorporable object perspectives.</span>
-          Integrate a view into any internal tool or public website.
+          <span className='bullet-text'>
+            Top-Tier Talent Acquisition Ratio.{' '}
+          </span>
+          The significance of Talent Acquisition holds utmost importance at
+          codeBrewers, and it stands out as one of our proudest KPIs.{' '}
         </p>
 
         <p>
           <img className='gen-icon' src='/img/universal-api.svg' alt='d-icon' />
-          <span className='bullet-text'>Universal API Access. </span>
-          Utilize your data model anywhere; access any object, document, or
-          query through the API.
-        </p>
-
-        <p>
-          <img className='gen-icon' src='/img/codeless-data.svg' alt='e-icon' />
-          <span className='bullet-text'>Codeless data model creation. </span>
-          Shape your business model in hours, not weeks.
-        </p>
-
-        <p>
-          <img className='gen-icon' src='/img/protected.svg' alt='f-icon' />
-          <span className='bullet-text'>Protected and confidential. </span>
-          Operate the entirety of CodeBrewers within your own cloud
-          infrastructure or in a dedicated private area on ours.
-        </p>
-
-        <p>
-          <img className='gen-icon' src='/img/authorized.svg' alt='g-icon' />
-          <span className='bullet-text'>Completely Authorized. </span>
-          End-users and LLMs have row and column-level permissions.
-        </p>
-
-        <p>
-          <img
-            className='gen-icon'
-            src='/img/logging-trails.svg'
-            alt='a-icon'
-          />
-          <span className='bullet-text'>Logging trails. </span>
-          Comprehensive records for data access, schema modifications, and all
-          other activities.
+          <span className='bullet-text'>
+            Exclusive Repository of Inactive IT Candidates.{' '}
+          </span>
+          At codeBrewers, we center our approach around people, nurturing
+          lasting connections. After all, it's the power of individual potential
+          that propels us into the future.
         </p>
       </div>
     </section>
