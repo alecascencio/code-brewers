@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -7,6 +8,16 @@ const Navbar = () => {
   const toggleMenu = () => {
     setOpenMenu(!openMenu);
   };
+
+  useEffect(() => {
+    const route = window.location.hash.substr(1);
+    let element = document.getElementById(route);
+    element &&
+      element.scrollIntoView({
+        behavior: 'smooth',
+        block: 'center',
+      });
+  }, []);
 
   return (
     <section className='navbar container'>
@@ -22,10 +33,17 @@ const Navbar = () => {
           <a
             href='/'
             onClick={(e) => {
-              let element = document.getElementById('about-us');
               e.preventDefault();
-              element &&
-                element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+              if (window.location.pathname === '/') {
+                let element = document.getElementById('about-us');
+                element &&
+                  element.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'center',
+                  });
+              } else {
+                window.location.href = '/#about-us';
+              }
             }}
           >
             About Us
@@ -33,10 +51,17 @@ const Navbar = () => {
           <a
             href='/'
             onClick={(e) => {
-              let element = document.getElementById('traits');
               e.preventDefault();
-              element &&
-                element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+              if (window.location.pathname === '/') {
+                let element = document.getElementById('traits');
+                element &&
+                  element.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'center',
+                  });
+              } else {
+                window.location.href = '/#traits';
+              }
             }}
           >
             Traits
@@ -48,9 +73,9 @@ const Navbar = () => {
           >
             LinkedIn
           </a>
-          <a href='/contact-us' className='get-started-button'>
+          <Link to='/contact-us' className='get-started-button'>
             Get Started
-          </a>
+          </Link>
         </div>
       </div>
       <div className='mobile-menu'>
@@ -101,9 +126,9 @@ const Navbar = () => {
             >
               LinkedIn
             </a>
-            <a href='/contact-us' className='get-started-button-mobile'>
+            <Link to='/contact-us' className='get-started-button-mobile'>
               Get Started
-            </a>
+            </Link>
           </div>
         )}
       </div>
