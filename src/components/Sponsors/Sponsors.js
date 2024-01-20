@@ -23,7 +23,7 @@ const Sponsors = () => {
         />
         <a target='_blanck' href='https://www.instagram.com/capracoffeemx/'>
           <img
-            src='/img/capra.png'
+            src='/img/capra-logo.png'
             loading='lazy'
             alt='capra-logo'
             className='integration-logo'
