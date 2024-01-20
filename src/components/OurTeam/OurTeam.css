@@ -59,4 +59,13 @@
   .blur-wrap {
     margin: 40px 0;
   }
+
+  .ourteam-paragraph {
+    max-width: 95%;
+  }
+
+  .container {
+    padding-left: 5%!important;
+    padding-right: 5%!important;
+  }
 }
