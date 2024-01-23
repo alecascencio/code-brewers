@@ -29,7 +29,10 @@ const ContactUs = () => {
       };
 
       const response = await axios.post(apiUrl, emailPayload);
-      console.log('Email sent successfully:', response.data);
+      console.log(
+        'And off it goes! Your message is on its way! 🚀:',
+        response.data
+      );
 
       setFormData({
         name: '',
@@ -38,10 +41,10 @@ const ContactUs = () => {
         company: '',
         message: '',
       });
-      alert('Email sent successfully!');
+      alert('And off it goes! Your message is on its way! 🚀');
     } catch (error) {
-      console.error('Error sending email:', error);
-      alert('Error sending email.');
+      console.error('Error in the email matrix! Message not sent. 🕵️‍♂️:', error);
+      alert('Error in the email matrix! Message not sent. 🕵️‍♂️');
     }
   };
 

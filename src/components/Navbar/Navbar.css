@@ -36,7 +36,7 @@
 
 .navbar .links {
   margin-left: auto;
-  margin-top: 20px
+  margin-top: 10px
 }
 
 .navbar a {
@@ -61,6 +61,29 @@
 
 .button {
   background-color: black;
+}
+
+.navbar .link-block {
+  transition: opacity 0.3s, color 0.3s;
+}
+
+.navbar .link-block:hover {
+  opacity: 0.8; 
+  color: #000; 
+}
+
+.navbar .w-inline-block {
+  max-width: 100%;
+  display: inline-block;
+}
+
+.navbar .icon-1x1-medium {
+  width: 2rem;
+  height: 2rem;
+  color: #596177;
+  margin-top: -5px;
+  margin-left: 10px;
+  margin-right: -15px;
 }
 
 @media (max-width: 768px) {

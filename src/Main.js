@@ -8,6 +8,7 @@ import GetStarted from './components/GetStarted/GetStarted';
 import Footer from './components/Footer/Footer';
 import Copyright from './components/Copyright/Copyright';
 import Navbar from './components/Navbar/Navbar';
+import HowItWorks from './components/HowItWorks/HowItWorks';
 
 function Main() {
   return (
@@ -16,6 +17,7 @@ function Main() {
       <Home />
       <Sponsors />
       <AboutUs />
+      <HowItWorks />
       <OurTeam />
       <Features />
       <GetStarted />

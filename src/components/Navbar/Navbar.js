@@ -67,11 +67,35 @@ const Navbar = () => {
             Traits
           </a>
           <a
-            target='_blank'
-            rel='noreferrer'
-            href='https://www.linkedin.com/feed/'
+            href='/'
+            onClick={(e) => {
+              e.preventDefault();
+              if (window.location.pathname === '/') {
+                let element = document.getElementById('how-it-works');
+                element &&
+                  element.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'center',
+                  });
+              } else {
+                window.location.href = '/#how-it-works';
+              }
+            }}
           >
-            LinkedIn
+            How It Works
+          </a>
+          <a
+            href='https://www.linkedin.com/feed/'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='link-block w-inline-block'
+          >
+            <img
+              src='/img/LinkedIn.svg'
+              loading='lazy'
+              alt='linkedin-icon'
+              className='icon-1x1-medium'
+            />
           </a>
           <Link to='/contact-us' className='get-started-button'>
             Get Started
