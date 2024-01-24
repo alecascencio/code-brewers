@@ -9,6 +9,7 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.0",
     "react-scripts": "^5.0.1",
+    "react-simple-typewriter": "^5.0.1",
     "react-slick": "^0.29.0",
     "react-spring-carousel": "^2.0.19",
     "semantic-ui-css": "^2.5.0",

@@ -1,13 +1,28 @@
 import './Home.css';
 import { Link } from 'react-router-dom';
+import { Typewriter } from 'react-simple-typewriter';
 
 const Home = () => {
+  const handleDone = () => {};
+
+  const handleType = (text) => {};
+
   return (
     <section className='home container'>
       <div className='home-wrapper'>
         <h2 className='home-header'>Looking for</h2>
-        <h2 id='exceptional' className='home-header'>
-          exceptional
+        <h2 className='type-header'>
+          <Typewriter
+            words={['exceptional', 'outstanding', 'remarkable', 'top-notch']}
+            loop={1000}
+            cursor
+            cursorStyle='_'
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1000}
+            onLoopDone={handleDone}
+            onType={handleType}
+          />
         </h2>
         <h2 className='home-header'>IT candidates?</h2>
         <p className='home-paragraph'>
