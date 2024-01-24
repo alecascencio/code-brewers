@@ -53,24 +53,6 @@ const Navbar = () => {
             onClick={(e) => {
               e.preventDefault();
               if (window.location.pathname === '/') {
-                let element = document.getElementById('traits');
-                element &&
-                  element.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'center',
-                  });
-              } else {
-                window.location.href = '/#traits';
-              }
-            }}
-          >
-            Traits
-          </a>
-          <a
-            href='/'
-            onClick={(e) => {
-              e.preventDefault();
-              if (window.location.pathname === '/') {
                 let element = document.getElementById('how-it-works');
                 element &&
                   element.scrollIntoView({
@@ -83,6 +65,24 @@ const Navbar = () => {
             }}
           >
             How It Works
+          </a>
+          <a
+            href='/'
+            onClick={(e) => {
+              e.preventDefault();
+              if (window.location.pathname === '/') {
+                let element = document.getElementById('traits');
+                element &&
+                  element.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'center',
+                  });
+              } else {
+                window.location.href = '/#traits';
+              }
+            }}
+          >
+            Traits
           </a>
           <a
             href='https://www.linkedin.com/feed/'
