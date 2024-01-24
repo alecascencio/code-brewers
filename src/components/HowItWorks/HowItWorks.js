@@ -14,7 +14,7 @@ const HowItWorks = () => {
           <p className='text-size-medium'>
             Click{' '}
             <a
-              href='https://calendly.com/'
+              href='https://calendly.com/codebrewers/30min?back=1&month=2024-01'
               className='link'
               target='_blank'
               rel='noreferrer'
